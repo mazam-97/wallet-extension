@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "WebWallet (ETH + Solana)",
+  "version": "0.1.0",
+  "description": "A MetaMask-like wallet extension (demo).",
+  "action": {
+    "default_title": "WebWallet",
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["storage", "clipboardWrite"],
+  "host_permissions": [],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
+

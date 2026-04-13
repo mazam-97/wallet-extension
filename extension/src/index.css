@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+  }
+}
+
+/* Typical wallet popup size */
+#root {
+  width: 360px;
+  min-height: 600px;
+}

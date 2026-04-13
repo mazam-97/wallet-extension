@@ -1,0 +1,14 @@
+{
+  "name": "webwallet-extension",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "extension"
+  ],
+  "scripts": {
+    "dev": "npm -w extension run dev",
+    "build": "npm -w extension run build",
+    "lint": "npm -w extension run lint"
+  }
+}
+
